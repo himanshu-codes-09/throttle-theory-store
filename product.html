@@ -1,0 +1,35 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product | ThrottleWear</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">ThrottleWear</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Search Input -->
+  <section class="categories">
+    <h2>Search Products</h2>
+    <input type="text" id="search" placeholder="Search..." style="padding: 10px; width: 300px;" />
+    <div id="product-list" class="category-grid">
+      <!-- JS will add products here -->
+    </div>
+    <p id="empty-message" style="margin-top: 20px; color: gray;"></p>
+  </section>
+
+</body>
+</html>
